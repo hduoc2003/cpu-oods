@@ -1,0 +1,16 @@
+[package]
+name = "cpu-oods"
+version = "1.0.0"
+authors = []
+
+[addresses]
+verifier_addr = "59a7a2c57daa0d7b38bb49c954c0fb2f42bc8803963fbdd2a154b2c28fb2bfa2"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
